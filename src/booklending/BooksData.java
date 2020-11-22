@@ -27,11 +27,10 @@ public class BooksData {
         booklists.add(new Books(800,803,"The way of loser")); //ประวัติศาสตร์
         booklists.add(new Books(900,906,"Destination of love")); //นวนิยาย
         
-                  
-        
+
+ 
         for (Books booklist : booklists) {
-            System.out.println(booklist.toString());  
-                       
+            System.out.println(booklist.toString());                         
         }
         
     } 

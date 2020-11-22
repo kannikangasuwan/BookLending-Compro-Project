@@ -1,27 +1,22 @@
 package booklending;
 
 public class Books {
-  
     private int bookCategory;
     private int bookCode;
     private String name;
        
     public Books(){
         
-    }
-    
-   public Books(int bookCategory, int bookCode, String name){
+    }   
+    public Books(int bookCategory, int bookCode, String name){
        this.bookCategory = bookCategory;
        this.bookCode = bookCode;
        this.name = name;                            
-   }
-
-   
-   public Books( int bookCode, String name){
+    }   
+    public Books( int bookCode, String name){
        this.bookCode = bookCode;
        this.name = name;                            
-   }
-
+    }
     public Books(int bookCode) {
         this.bookCode = bookCode;
     }
@@ -38,17 +33,14 @@ public class Books {
 
     public int getBookCategory() {
         return bookCategory;
-    }
-       
+    }       
     public int getBookCode(){
         return bookCode;
-    }
-    
+    }    
     public String getName() {
         return name;
     }
-    
-    
+        
     public void displayBooks(){
         System.out.println("Book Category : "+ this.bookCategory);
         System.out.println("Book Code : " + this.bookCode);

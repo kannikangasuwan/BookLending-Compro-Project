@@ -12,7 +12,7 @@ public class Main {
     }
 
     private static void testPerson() {
-        Person p1 = new Person("Pam","Jariyawadee","0014");//รับค่า firstname , lastname, idMember จากพารามิเตอร์
+        Person p1 = new Person();//รับค่า firstname , lastname, idMember จากพารามิเตอร์
         p1.displayPerson();
         System.out.println("---------------------------------------------------");
     }
@@ -37,7 +37,7 @@ public class Main {
             case 11:
                 {
                     System.out.println("What books would you like to lend?");
-                    Books b1 = new Books(600,603,"Walk to freedom");//รับค่า bookCategory, bookCode, name จากพารามิเตอร์
+                    Books b1 = new Books();//รับค่า bookCategory, bookCode, name จากพารามิเตอร์
                     b1.displayBooks();
                     System.out.println("number of the Lending date.");
                     System.out.println("1 = Monday, 2 = Tuesday, 3 = Wednesday, 4 = Thursday, 5 = Friday, 6 = Saturday, 7  = Sunday");
@@ -72,7 +72,7 @@ public class Main {
             case 22:
                 {
                     System.out.println("What books would you like to return?");                    
-                    Books b1 = new Books(600,602,"Hell");//รับค่า bookCategory, bookCode, name จากพารามิเตอร์
+                    Books b1 = new Books();//รับค่า bookCategory, bookCode, name จากพารามิเตอร์
                     b1.displayBooks();
                     System.out.println("Your book has been received.");
                     System.out.println("---------------------------------------------------");
