@@ -42,7 +42,7 @@ public class Main {
         System.out.println("---------------------------------------------------");
         switch (number) {
             case 11: {
-                System.out.print("What books would you like to lend?");
+                System.out.println("What books would you like to lend?");
                 System.out.print("Enter bookcategory : ");
                 int Bookcat = sn.nextInt();
                 System.out.print("Enter bookcode : ");
