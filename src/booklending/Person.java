@@ -1,6 +1,7 @@
 package booklending;
 
-public class Person {  
+public class Person {
+
     private String firstname;
     private String lastname;
     private String idMember;
@@ -9,36 +10,31 @@ public class Person {
         this.firstname = firstname;
         this.lastname = lastname;
         this.idMember = idMember;
-    }    
-    public Person(){
-       
     }
 
     public void setFirstname(String firstname) {
         this.firstname = firstname;
     }
+
     public void setLastname(String lastname) {
         this.lastname = lastname;
-    }
-    public void setIdMember(String idMember) {
-        this.idMember = idMember;
     }
 
     public String getFirstname() {
         return firstname;
     }
+
     public String getLastname() {
         return lastname;
     }
-    public String getIdMember(){
-        return idMember;
-    }
-    
-    public void displayPerson(){
-        System.out.println("Name : "+ this.firstname +"  "+ this.lastname);
-        System.out.println("ID Member : " + this.idMember);        
+
+    public String getIdMember() {
+        return this.idMember;
     }
 
-    
-       
+    public void displayPerson() {
+        System.out.println("Name : " + this.getFirstname() + "  " + this.getLastname());
+        System.out.println("ID Member : " + this.getIdMember());
+    }
+
 }
