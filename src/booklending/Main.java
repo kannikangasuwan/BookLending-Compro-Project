@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        testPerson();
-        // testBooksData();//ไว้เช็คว่ามีหนังสือใดที่สามารถยืมได้
-        testLendingBook();
-
+        testPerson();//รับชื่อ นามสกุล รหัสสมาชิกจากคีย์บอร์ด
+      //testBooksData();//ไว้เช็คว่ามีหนังสือใดที่สามารถยืมได้
+        testLendingBook();//เลือกการยืมหรือคืนหนังสือ
     }
 
     private static void testPerson() {

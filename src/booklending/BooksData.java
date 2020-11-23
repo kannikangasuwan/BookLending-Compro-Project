@@ -1,6 +1,10 @@
 package booklending;
 import java.util.ArrayList;
 
+/**
+ * Myclass
+ * @author Kannika
+ */
 public class BooksData {
   
     public static void BookLists() {     
@@ -28,7 +32,7 @@ public class BooksData {
         booklists.add(new Books(900,906,"Destination of love")); //นวนิยาย
         
 
- 
+        
         for (Books booklist : booklists) {
             System.out.println(booklist.toString());                         
         }
