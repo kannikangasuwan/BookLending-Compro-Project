@@ -12,6 +12,8 @@ public class Main {
     }
 
     private static void testPerson() {
+        System.out.println("\tHello!");
+        System.out.println("Welcome to the book lending system.");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter you First name : ");
         String firstName = sc.next();
